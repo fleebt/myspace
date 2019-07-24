@@ -2,11 +2,12 @@ import smtplib
 from email.mime.text import MIMEText
 from email.utils import formataddr
 from email.mime.multipart import MIMEMultipart
-from email.header import Header
-  
+
+
 def hello():
     print('hello world')
-    
+
+
 def mail(topic = '数据统计邮件',
          formatText = '',
          fileNameList = [],
